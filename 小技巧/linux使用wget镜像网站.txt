@@ -1,0 +1,15 @@
+镜像一个网站的命令：
+wget -c -m -np -p -k -E -P YourDirectory http://www.server-world.info/en/
+-c 断点叙传
+-np 不下载站外连接
+-p 下载网页需要的元素，如css，img等
+-k 转换为本地的链接
+-E 将‘text/html’文档以html扩展名保存
+-P YourDirectory 保存所有文件和目录到指定文件夹下
+-m/--mirror 等价于-r -N -l inf -nr
+-r 递归下载整个网站，下载对应链接的内容，如果有站外链接也会一起下载，慎用
+-l 最大递归深度，inf或0代表无穷
+-nr 不移走‘listing’文件
+-N 不要重新下载文件，除非比本地文件新
+-i/--input-file=FILE 下载在FILE文件中出现的URLs
+http://www.server-world.info/en/ 要下载的网站链接，可以是其他网站
