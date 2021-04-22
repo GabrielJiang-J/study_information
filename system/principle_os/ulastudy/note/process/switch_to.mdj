@@ -1309,8 +1309,8 @@
 							"left": 888,
 							"top": 184,
 							"width": 410,
-							"height": 40,
-							"text": "当进程每次通过中断或系统调用进入从用户态进入内核态时，\n内核栈都是空的，由中断服务例程将用户态寄存器保存到内核栈中。"
+							"height": 72,
+							"text": "当进程每次通过中断或系统调用进入从用户态进入内核态时，\n内核栈都是空的，由中断服务例程将用户态寄存器保存到内核栈中。\n\n当进程从内核态返回用户态时，内核会将用户态寄存器从内核栈出\n栈，恢复到用户态上下文。"
 						}
 					]
 				},
@@ -1328,7 +1328,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bMQcVP0Wi0="
 							},
-							"name": "fs"
+							"name": "fs",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1336,7 +1337,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bMQcVP0Wi0="
 							},
-							"name": "es"
+							"name": "es",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1344,7 +1346,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bMQcVP0Wi0="
 							},
-							"name": "ds"
+							"name": "ds",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1352,7 +1355,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bMQcVP0Wi0="
 							},
-							"name": "eax"
+							"name": "eax",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1360,7 +1364,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bMQcVP0Wi0="
 							},
-							"name": "ebp"
+							"name": "ebp",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1368,7 +1373,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bMQcVP0Wi0="
 							},
-							"name": "edi"
+							"name": "edi",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1376,7 +1382,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bMQcVP0Wi0="
 							},
-							"name": "esi"
+							"name": "esi",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1384,7 +1391,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bMQcVP0Wi0="
 							},
-							"name": "edx"
+							"name": "edx",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1392,7 +1400,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bMQcVP0Wi0="
 							},
-							"name": "ecx"
+							"name": "ecx",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1400,7 +1409,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bMQcVP0Wi0="
 							},
-							"name": "ebx"
+							"name": "ebx",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1438,7 +1448,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bbCuVRGNZE="
 							},
-							"name": "fs"
+							"name": "fs",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1446,7 +1457,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bbCuVRGNZE="
 							},
-							"name": "es"
+							"name": "es",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1454,7 +1466,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bbCuVRGNZE="
 							},
-							"name": "ds"
+							"name": "ds",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1462,7 +1475,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bbCuVRGNZE="
 							},
-							"name": "eax"
+							"name": "eax",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1470,7 +1484,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bbCuVRGNZE="
 							},
-							"name": "ebp"
+							"name": "ebp",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1478,7 +1493,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bbCuVRGNZE="
 							},
-							"name": "edi"
+							"name": "edi",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1486,7 +1502,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bbCuVRGNZE="
 							},
-							"name": "esi"
+							"name": "esi",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1494,7 +1511,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bbCuVRGNZE="
 							},
-							"name": "edx"
+							"name": "edx",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1502,7 +1520,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bbCuVRGNZE="
 							},
-							"name": "ecx"
+							"name": "ecx",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1510,7 +1529,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bbCuVRGNZE="
 							},
-							"name": "ebx"
+							"name": "ebx",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1575,7 +1595,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bpV6FSePrs="
 							},
-							"name": "fs"
+							"name": "fs",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1583,7 +1604,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bpV6FSePrs="
 							},
-							"name": "es"
+							"name": "es",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1591,7 +1613,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bpV6FSePrs="
 							},
-							"name": "ds"
+							"name": "ds",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1599,7 +1622,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bpV6FSePrs="
 							},
-							"name": "eax"
+							"name": "eax",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1607,7 +1631,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bpV6FSePrs="
 							},
-							"name": "ebp"
+							"name": "ebp",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1615,7 +1640,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bpV6FSePrs="
 							},
-							"name": "edi"
+							"name": "edi",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1623,7 +1649,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bpV6FSePrs="
 							},
-							"name": "esi"
+							"name": "esi",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1631,7 +1658,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bpV6FSePrs="
 							},
-							"name": "edx"
+							"name": "edx",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1639,7 +1667,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bpV6FSePrs="
 							},
-							"name": "ecx"
+							"name": "ecx",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1647,7 +1676,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF47bpV6FSePrs="
 							},
-							"name": "ebx"
+							"name": "ebx",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
